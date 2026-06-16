@@ -1,0 +1,184 @@
+@import url('https://googleapis.com');
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    
+}
+
+h2 {
+    margin: 0;
+    padding: ;
+}
+
+ul {
+    margin: 0;
+}
+
+.block {
+    width: 100%;
+}
+
+.block.one {
+    /* height: 500px; */
+    background-color: #1f2937;
+    color: #E5E7EB;
+}
+
+.block.two {
+    
+}
+
+.block.three {   
+    background-color: #E5E7EB;
+}
+
+.block.four {
+    
+}
+
+.block.five {
+    background-color: #1f2937;
+    color: #E5E7EB;
+}
+
+.content {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+/* Styling the content inside each block */
+
+.header {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+    gap: 60px;
+}
+
+.featureimage {
+    width: 500px;
+    height: 250px;
+    background-color: #E5E7EB;
+    flex: 1 0 auto;
+    color: #1f2937;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.featuretext h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #F9F8FA;
+}
+
+button {
+    padding: 5px 20px 5px 20px;
+    border-radius: 6px;
+    background-color: #3882F6;
+    border: none;
+    color: #F9F8FA;
+}
+
+.two .content {
+    padding:50px 0 100px 0;
+    text-align: center;
+}
+.featurethumbnail {
+    width: 150px;
+}
+
+.thumbnailimage {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+}
+
+.two h2 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.two p.writeup {
+    margin: 8px auto;
+}
+
+.featurethumbnailwrapper {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.quotewrapper {
+    padding: 100px;
+}
+
+p.quote {
+   font-size: 36px;
+   font-weight: 300;
+   font-style: italic;
+   color: #1F2937;
+   margin: 0;
+}
+
+.author {
+    text-align: right;
+    padding: 0 20px;
+}
+
+.four .content {
+    padding: 100px 0;
+}
+
+.ctatextwrapper {
+    padding: 40px 100px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-radius: 5px;
+}
+
+.ctabutton button {
+    border: 1px solid #E5E7EB;
+}
+
+.ctatext {
+    color:#E5E7EB;
+}
+
+.ctatext p, 
+.ctatext h3 {
+    margin: 0;
+}
+
+.five .content {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center ;
+}
+
+
